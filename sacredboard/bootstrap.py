@@ -4,6 +4,7 @@ Bootstrap module parses command line arguments and initializes the app.
 
 Configures the database connection and starts the web application.
 """
+from __future__ import print_function
 import locale
 import sys
 

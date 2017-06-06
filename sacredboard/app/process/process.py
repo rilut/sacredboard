@@ -40,7 +40,7 @@ class Process:
                     return line
                 else:
                     time.sleep(0.05)
-            raise TimeoutError()
+            # raise TimeoutError()
         else:
             return None
 
